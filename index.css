@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* <!-- ========= name start========= --> */
+.name{
+    height: 25vh;
+    width: 99.25%;
+    border: 1px solid  ;
+    background-image: linear-gradient(to right bottom,red,green),url();
+
+}
+.name h1{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+    color: orange;
+    transition-duration: 2s;
+}
+.name h1:hover{
+    transform: skew(8deg);
+    color: aqua;
+    transition-duration: 2s;
+    cursor: pointer;
+}
+/* <!-- ========= name end========= --> */
+/* <!-- ========= color start========= --> */
+
+.color{
+    height: 12vh;
+    width: 50%;
+    border: 1px solid ;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 400px; 
+}
+.color1{
+    height: 12vh;
+    width: 80%;
+    border: 1px solid ;
+    border-radius: 10px;
+   background-color: black;
+   animation-duration: 2s;
+   animation-fill-mode: backwards;
+   animation-name: trt;
+}
+@keyframes trt{
+    0%{
+        background-color: palevioletred;
+        width: 0%;
+    }
+    50%{
+        background-color: red;
+    }
+    100%{
+        background-color: aqua;
+        width: 80%;
+    }
+
+}
+/* <!-- ========= color end========= --> */
+/* <!-- ========= ball start========= --> */
+.ball{
+       height: 70vh;
+       width: 170px;
+       border: 1px solid ;
+       border-radius: 10px;
+       margin-left: 180px;
+       margin-top: -80px;
+       animation-name: single;
+       animation-duration: 2s;
+       animation-timing-function: linear;
+       animation-iteration-count: infinite;
+}
+@keyframes single{
+        0%{
+            background-color: darkgrey;
+        }
+        50%{
+            background-color: green;
+        }
+        100%{
+            background-color: black;
+        }
+    }
+
+.ball1{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid ;
+    margin-left: 30px;
+    animation-name: skill;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    /* overflow: hidden; */
+    position: relative;
+}
+@keyframes skill{
+    0%{
+        background-color: blue;
+        top: 0%;
+    }
+    50%{
+        background-color: blueviolet;
+        top: 56vh;
+    }
+    100%{
+        background-color: brown;
+        top: 0%;
+    }
+}
+/* <!-- ========= ball end========= --> */
+/* <!-- ========= sec start========= --> */
+.main{
+      height: 56vh;
+      width: 50%;
+      border: 1px solid ;
+      border-radius: 10px;
+      position: relative;
+      left: 400px;
+      top: -365px;
+
+
+}
+.a{
+    height: 200px;
+    width: 40px;
+    background-color: aqua;
+    position: absolute;
+    top: 167px;
+    left: 40px;
+}
+.b{
+    height: 200px;
+    width: 40px;
+    background-color: aqua;
+    position: absolute;
+    top: 167px;
+    left: 140px;
+}
+.c{
+    height: 200px;
+    width: 40px;
+    background-color: aqua;
+    position: absolute;
+    top: 167px;
+    left: 240px;
+}
+.d{
+    height: 200px;
+    width: 40px;
+    background-color: aqua;
+    position: absolute;
+    top: 167px;
+    left: 340px;
+}
+.e{
+    height: 200px;
+    width: 40px;
+    background-color: aqua;
+    position: absolute;
+    top: 167px;
+    left: 440px;
+}
